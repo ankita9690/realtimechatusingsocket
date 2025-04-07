@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:4000'); // Change to your Render backend URL after deploy
+const socket = io('https://realtimechatusingsocket.onrender.com'); // Change to your Render backend URL after deploy
 
 function App() {
   const [message, setMessage] = useState('');
